@@ -1,1 +1,65 @@
+/* Configurações Globais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+}
 
+/* Container do Blog */
+.blog-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.post h1 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.meta {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 24px;
+}
+
+/* Estilização e proporção da imagem */
+.post-image {
+    width: 100%;          /* Ocupa a largura total do container de texto */
+    max-width: 100%;     /* Garante que ela não ultrapasse o limite */
+    height: auto;         /* Mantém a proporção original da foto sem achatar */
+    display: block;
+    margin: 24px auto;    /* Dá um espaço confortável antes e depois da imagem */
+    border-radius: 8px;   /* Bordas levemente arredondadas para um visual moderno */
+}
+
+/* Parágrafos de leitura confortável */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+/* Botão de Interação */
+button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
